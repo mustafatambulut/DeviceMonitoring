@@ -1,0 +1,24 @@
+/* You can add global styles to this file, and also import other style files */
+@import "variable.css";
+@import '~ngx-toastr/toastr.css';
+@mixin box-shadow($top, $left, $blur, $color, $inset: "") {
+  -webkit-box-shadow: $top $left $blur $color #{$inset};
+  -moz-box-shadow: $top $left $blur $color #{$inset};
+  box-shadow: $top $left $blur $color #{$inset};
+}
+
+.toast-bootstrap-compatibility-fix {
+  opacity:1;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  background-color: var(--c-theme);
+  margin: 0;
+  font-family: Roboto, "Helvetica Neue", sans-serif;
+}

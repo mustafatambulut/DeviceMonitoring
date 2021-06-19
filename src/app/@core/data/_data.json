@@ -1,0 +1,158 @@
+[
+    {
+      "id": "r1",
+      "items": [
+        {
+          "label":"Multi UTI v.1",
+          "data": [0,50,45,100],
+          "backgroundColor": "rgba(40,125,200,.5)",
+          "borderColor": "rgb(40,100,200)",
+          "fill": true,
+          "lineTension": 0,
+          "radius": 5
+        },
+        {
+          "label":"Multi UTI v.2",
+          "data": [30,90,111,20],
+          "backgroundColor": "rgba(75,10,125,.5)",
+          "borderColor": "rgb(75,10,125)",
+          "fill": true,
+          "lineTension": 0.2,
+          "radius": 5
+        }
+      ],
+      "name": "Multi winding according UTI",
+      "description": "The most customizable units of their type – unparalleled when it comes to worldwide use",
+      "img": "http://www.eaton.com.tr/ecm/groups/public/@pub/@europe/documents/content/pct_310712.jpg"
+    },
+    {
+      "id": "r2",
+      "items": [
+        {
+          "label":"Transformers STN v.1",
+          "data": [0,50,45,100],
+          "backgroundColor": "rgba(40,125,200,.5)",
+          "borderColor": "rgb(40,100,200)",
+          "fill": true,
+          "lineTension": 0,
+          "radius": 5
+        },
+        {
+          "label":"Transformers STN v.2",
+          "data": [30,90,111,20],
+          "backgroundColor": "rgba(75,10,125,.5)",
+          "borderColor": "rgb(75,10,125)",
+          "fill": true,
+          "lineTension": 0.2,
+          "radius": 5
+        }
+      ],
+      "name": "Control transformers STN",
+      "description": "Unrivaled performance for extra-low voltage applications",
+      "img": "http://www.eaton.com.tr/ecm/groups/public/@pub/@europe/documents/content/pct_310719.jpg"
+    },
+    {
+      "id": "r3",
+      "items": [
+        {
+          "label":"Xpert CXH v.1",
+          "data": [0,50,45,100],
+          "backgroundColor": "rgba(40,125,200,.5)",
+          "borderColor": "rgb(40,100,200)",
+          "fill": true,
+          "lineTension": 0,
+          "radius": 5
+        },
+        {
+          "label":"Xpert CXH v.2",
+          "data": [30,90,111,20],
+          "backgroundColor": "rgba(75,10,125,.5)",
+          "borderColor": "rgb(75,10,125)",
+          "fill": true,
+          "lineTension": 0.2,
+          "radius": 5
+        }
+      ],
+      "name": "Power Xpert CXH",
+      "description": "At Eaton, our focus is on developing the latest in motor control and protection technologies that optimize the performance of your process, while keeping your personnel and equipment safe from harm.",
+      "img": "http://www.eaton.uk.com/ecm/groups/public/@pub/@europe/@electrical/documents/content/pct_1519113.jpg"
+    },
+    {
+      "id": "r4",
+      "items": [
+        {
+          "label":"Capitole 40 v.1",
+          "data": [0,50,45,100],
+          "backgroundColor": "rgba(40,125,200,.5)",
+          "borderColor": "rgb(40,100,200)",
+          "fill": true,
+          "lineTension": 0,
+          "radius": 5
+        },
+        {
+          "label":"Capitole 40 v.2",
+          "data": [30,90,111,20],
+          "backgroundColor": "rgba(75,10,125,.5)",
+          "borderColor": "rgb(75,10,125)",
+          "fill": true,
+          "lineTension": 0.2,
+          "radius": 5
+        }
+      ],
+      "name": "Capitole 40",
+      "description": "Low voltage switchgear and control gear assemblies up to 6300 A / 690 V",
+      "img": "http://www.eaton.uk.com/ecm/groups/public/@pub/@europe/documents/content/pct_270526.jpg"
+    },
+    {
+      "id": "r5",
+      "items": [
+        {
+          "label":"Assembled MCC v.1",
+          "data": [0,50,45,100],
+          "backgroundColor": "rgba(40,125,200,.5)",
+          "borderColor": "rgb(40,100,200)",
+          "fill": true,
+          "lineTension": 0,
+          "radius": 5
+        },
+        {
+          "label":"Assembled MCC v.2",
+          "data": [30,90,111,20],
+          "backgroundColor": "rgba(75,10,125,.5)",
+          "borderColor": "rgb(75,10,125)",
+          "fill": true,
+          "lineTension": 0.2,
+          "radius": 5
+        }
+      ],
+      "name": "Factory Assembled MCC",
+        "description": "Capitole 40 and Power Xpert CX control gear up to 7000 A / 990 V",
+        "img": "http://www.eaton.uk.com/ecm/groups/public/@pub/@europe/documents/content/pct_270526.jpg"
+    },
+    {
+      "id": "r6",
+      "items": [
+        {
+          "label":"Power Xpert v.1",
+          "data": [0,10,15,50],
+          "backgroundColor": "rgba(40,125,200,.5)",
+          "borderColor": "rgb(40,100,200)",
+          "fill": true,
+          "lineTension": 0,
+          "radius": 5
+        },
+        {
+          "label":"Power Xpert v.2",
+          "data": [10,40,70,40],
+          "backgroundColor": "rgba(75,10,125,.5)",
+          "borderColor": "rgb(75,10,125)",
+          "fill": true,
+          "lineTension": 0.2,
+          "radius": 5
+        }
+      ],
+      "name": "Power Xpert CX",
+      "description": "A compact, flexible and reliable solution - Withdrawable IEC Low Voltage Motor Control and Power Distribution Center",
+      "img": "http://www.eaton.uk.com/ecm/groups/public/@pub/@europe/@electrical/documents/content/pct_1136422.jpg"
+    }
+  ]
