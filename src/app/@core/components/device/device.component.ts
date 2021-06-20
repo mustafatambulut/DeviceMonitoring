@@ -9,6 +9,10 @@ export class DeviceComponent implements OnInit {
 
   constructor() { }
 
-  ngOnInit(): void { }
+  @Input() data: any = {};
+
+  ngOnInit(): void {
+    console.log('data', this.data);
+  }
 
 }

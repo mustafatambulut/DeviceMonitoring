@@ -1,1 +1,13 @@
-<p>device works!</p>
+<div>
+    <div class="card">
+      <a [routerLink]="['/dashboard']" [queryParams]="{ id: data.id }" style="text-decoration: auto;">
+        <img class="card-icon" src="{{ data.img }}" alt="monitoring" />
+        <h3 class="card-title">{{ data.name }}</h3>
+        <p class="card-text">
+          {{ data.description }}
+        </p>
+        <a class="card-link" href="#">Monitor device data</a>
+      </a>
+     
+    </div>
+</div>

@@ -1,1 +1,30 @@
-<p>landing works!</p>
+<section class="banner">
+    <div class="container">
+      <div class="banner-text">
+        <h1>Manage Monitoring</h1>
+        <p>
+          <strong>We make it easy to get the most out of your machine.</strong>
+          Our tools make it simple to track how your Droplets are performing and
+          help you to respond quickly if there is a problem
+        </p>
+        <button *ngIf="!isLogin" [routerLink]="[ '/auth']">Log In</button>
+        <h2 class="text-end" *ngIf="isLogin">Welcome,<strong> Admin </strong></h2>
+        <button *ngIf="isLogin" (click)="logout()">Log Out</button>
+      </div>
+    </div>
+    <img
+      class="banner-image"
+      src="https://preview.ibb.co/bMi5Y6/banner_img.png"
+      alt="monitoring"
+    />
+  </section>
+  
+  <div class="container">
+    <div class="row">
+      <div class="mb-30 col-md-6 col-lg-4" *ngFor="let data of dataList">
+        <app-device [data]="data"></app-device>
+      </div>
+    </div>
+  </div>
+  <app-footer></app-footer>
+  

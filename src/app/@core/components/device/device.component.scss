@@ -1,1 +1,48 @@
-//
+// card styles
+.mb-30 {
+    margin-bottom: 30px;
+  }
+  .card {
+    padding: 16px 24px;
+    background: var(--white);
+    height: 100%;
+    position: relative;
+    border: none;
+    box-shadow: 0 .5rem 1.5rem rgba(0,0,0,.15);
+    border: 2px solid transparent;
+    -webkit-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    z-index: 10;
+    h3.card-title {
+      font-weight: 700;
+      font-size: 1.3rem;
+      color: var(--darkPurple);
+    }
+    p {
+      color: var(--lightPurple);
+      font-size: 1rem;
+      line-height: 1.5;
+      margin-bottom: 72px;
+    }
+    .card-link {
+      position: absolute;
+      bottom: 18px;
+    }
+    &:hover {
+      -webkit-transform: translateY(-5px);
+    -ms-transform: translateY(-15px);
+    -o-transform: translateY(-15px);
+    transform: translateY(-15px);
+      box-shadow: 0 1rem 1.5rem rgba(0,0,0,.15);
+      cursor: pointer;
+    }
+    .card-icon {
+      width: 60px;
+      margin-bottom: 8px;
+      position: relative;
+      top: 0;
+      left: -12px;
+    }
+  }
+  
